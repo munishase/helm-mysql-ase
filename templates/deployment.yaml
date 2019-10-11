@@ -17,13 +17,13 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: munish123
+          value: munish1234
         - name: MYSQL_DATABASE
-          value: testingasedb
+          value: testingdbfor_ase
         - name: MYSQL_USER
-          value: munish
+          value: mani
         - name: MYSQL_PASSWORD
-          value: mani123
+          value: mani1234
         ports:
         - containerPort: 3306
           name: mysql8
